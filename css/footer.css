@@ -1,0 +1,128 @@
+.main-footer{
+	position:relative;
+	background-color:#000;
+}
+
+.pattern-layer-one{
+	position:absolute;
+	left:0px;
+	bottom:80px;
+	width:449px;
+	height:300px;
+	background-repeat:no-repeat;
+}
+
+.pattern-layer-two{
+	position:absolute;
+	right:0px;
+	bottom:80px;
+	width:472px;
+	height:300px;
+	background-repeat:no-repeat;
+}
+
+.widgets-section{
+	position:relative;
+	text-align:center;
+	padding:20px 0px 50px;
+}
+
+.logo{
+	position:relative;
+	line-height:1em;
+	margin-bottom:10px;
+}
+
+.contact-info-list{
+	position:relative;
+}
+
+.footer-contact{
+    display: inline-flex;
+    color: #fff;
+}
+li{
+    list-style: none;
+    color: #fff;
+}
+
+.contact-info-list li{
+	position:relative;
+	text-align:left;
+	line-height:1.9em;
+	color:#fff;
+	padding-left:60px;
+	margin-right:100px;
+	margin-bottom:30px;         
+}
+
+.contact-info-list li:last-child{
+	margin-right:0px;
+}
+.contact-info-list li a{
+	position:relative;
+	display:inline-block;
+	color:#fff;
+}
+
+.contact-info-list li .icon{
+	position:absolute;
+	left:0px;
+	top:0px;
+	line-height:1em;
+}
+
+.contact-info-list li a:hover{
+	color:rgb(252,27,27);
+}
+
+.social-box{
+    text-align: center;
+	position:relative;
+	margin-top:40px;
+    margin-left: -44px;
+}
+
+.social-box li{
+	position:relative;
+	margin:0px 6px;
+	display:inline-block;
+}
+
+.social-box li a{
+	position:relative;
+	width:40px;
+	height:40px;
+	line-height:40px;
+	border-radius:50px;
+	display:inline-block;
+	color:#fff;
+	background-color:rgb(252,27,27);
+}
+
+.social-box li a:hover{
+	color:rgb(252,27,27);
+	background-color:#fff;
+}
+
+.footer-bottom{
+	position:relative;
+	padding:20px 0px;
+	text-align:center;
+	background-color:#010a2e;
+}
+
+.footer-bottom .copyright{
+	position:relative;
+	font-size:15px;
+	color:#fff;
+}
+
+.footer-bottom .copyright a{
+	position:relative;
+	color:rgb(252,27,27);
+}
+
+.footer-bottom .copyright a:hover{
+	color:#fff;
+}
