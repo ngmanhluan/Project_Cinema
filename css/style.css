@@ -9,11 +9,13 @@
     height: 100vh;
     background-position: center;
     background-size: cover;
+    
 }
 nav{
     width: 100%;
     padding: 20px 0;
     text-align: center;
+    z-index:999;
 }
 .logo{
     width: 150px;

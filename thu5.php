@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://png.pngtree.com/png-clipart/20191119/ourlarge/pngtree-cinema-ticket-stubs-png-image_1993580.jpg" type="image/png">
     <title>lichchieuphim</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -71,7 +72,7 @@
 </head>
 <body> 
     
-
+<?php require_once 'header.php';	?>	
 <div class="container">
     <div class="gioithieu">
   <h3 class="text-danger">SIO TAM KỲ, QUẢNG NAM</h3>
@@ -151,6 +152,6 @@
       
            $conn->close();
    ?>
-   
+        <?php require_once 'footer.php';	?>	
 </body>
 </html>

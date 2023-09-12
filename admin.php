@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://png.pngtree.com/png-clipart/20191119/ourlarge/pngtree-cinema-ticket-stubs-png-image_1993580.jpg" type="image/png">   
     <title>admin</title>
     <link rel="stylesheet" href="admin.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -61,6 +62,7 @@
  </style>
 </head>
 <body>
+<?php require_once 'header.php';	?>	
 <?php 
 // Set error reporting to display warnings and errors
 error_reporting(E_ALL);
@@ -328,14 +330,14 @@ if (isset($_GET['notimage'])) {
                             echo "</div>";
                             echo "<form id='edit_form' action='sua.php' method='post'>";
                             echo "<input type='hidden' name='edit_id' value='" . $row["id"] ."'>";
-                            echo "<input type='hidden'  value='".   $thu."'>";
+                            echo "<input type='hidden'  name='thu' value='".   $thu."'>";
                             echo "<input type='submit' name='edit' value='Sửa phim'>";
+                            echo "<input type='submit' style='width=20px;height:30px;' value='id= " . $row["id"] . "'>";
                             echo "</form>";
                                 // echo "<form id='delete_form' method='post'>";
                                 // echo "<input type='hidden' name='delete_id' value='" . $row["id"] . "'>";
                                 // echo "<input type='submit' name='delete' value='Xóa'>";
                                 // echo "</form>"; // Đóng div 'thongtinphim'
-                                echo "<input type='submit' value='id= " . $row["id"] . "'>";
                             echo "</div>"; // Đóng div 'xuatphim'
                         }
                     }
@@ -393,6 +395,7 @@ if (isset($_POST["delete"])) {
 ?>
  <!-- end xoa  -->
 </div>
+<div class="footer"></div>
 </body>
 </html>
 
