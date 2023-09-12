@@ -1,28 +1,85 @@
- .contener img{
-  width: 550px;
-  height: 306.81px;
-  transition: all 600ms ease;
- }
- .image1{
-    border: 5px solid #FFF4F4;
- }
- .noidung1{
-    color: white;
-    background-color: #271f2d;
-    border-radius: 2px; 
-    text-align: center;
-    border-width: 10px;
-    padding-top: 10px;
-    height: 100%;
- }
- .contener {
-    width: 560px;
-    height: 440px;
-    margin-left: 30px;
-    margin-top: 50px; 
-    overflow: hidden;
-        box-shadow: 0px 0px 15px rgba(0,0,0,0.10); 
- }
- .contener img:hover {
-    transform: scale(1.1); 
-}
+    .contener img{
+    width: 550px;
+    height: 306.81px;
+    transition: all 600ms ease;
+    }
+    .image1{
+        border: 5px solid #FFF4F4;
+    }
+    .noidung1{
+        color: white;
+        background-color: #271f2d;
+        border-radius: 2px; 
+        text-align: center;
+        border-width: 10px;
+        padding-top: 10px;
+        height: 100%;
+    }
+    .contener {
+        width: 555px;
+        height: 440px;
+        margin-left: 30px;
+        margin-top: 50px; 
+        overflow: hidden;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.10); 
+    }
+    .contener img:hover {
+        transform: scale(1.1); 
+    }
+    .contener2 {
+        width: 555px;
+        height: 510px;
+        margin-left: 30px;
+        margin-top: 50px; 
+        overflow: hidden;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.10); 
+    }
+    .contener2 img{
+        width: 550px;
+        height: 363.19px;
+        transition: all 600ms ease;
+    }
+    .noidung2{
+        color: white;
+        background-color: #271f2d;
+        border-radius: 2px; 
+        text-align: center;
+        border-width: 10px;
+        padding-top: 20px;
+        height: 100%;
+    }
+    .contener2 img:hover {
+        transform: scale(1.1); 
+    }
+    .contener, .contener2 {
+        display: inline-block; 
+        vertical-align: top;
+    } 
+    /* conterner4 */
+    .contener3 img{
+        width: 550px;
+        height: 433.09px;
+        transition: all 600ms ease;
+        }
+        .image3{
+            border: 5px solid #FFF4F4;
+        }
+        .noidung3{
+            color: white;
+            background-color: #271f2d;
+            border-radius: 2px; 
+            text-align: center;
+            border-width: 10px;
+            padding-top: 20px;
+            height: 100%;
+        }
+        .contener3 {
+            width: 555px;
+            height: 570px;
+            margin-left: 30px;
+            overflow: hidden;
+           box-shadow: 0px 0px 15px rgba(0,0,0,0.10); 
+        }
+        .contener3 img:hover {
+            transform: scale(1.1); 
+        }

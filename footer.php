@@ -1,8 +1,4 @@
-<?php
-require_once 'database.php';		
-$sql = "SELECT * FROM thu2";
-$result = $conn->query($sql);
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

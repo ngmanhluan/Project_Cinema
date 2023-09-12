@@ -119,6 +119,7 @@
                 echo "<p>Tên phim: " . $row["ten_phim"] . "</p>";
                 echo " <div class='d-flex'><p class='text-danger'>Đạo diễn: <p> <p>" . $row["dao_dien"] . "</p></div>"; 
                 echo " <div class='d-flex' > <p class='text-danger'> Diễn viên:</p> <p>" . $row["dien_vien"] . "</p></div>";
+                echo "<p><strong>Mô tả phim:</strong> " . $row["mo_ta_phim"] . "</p>";
                 $giochieu_array = explode(", ", $row["gio_chieu"]); 
             foreach ($giochieu_array as $giochieu) {
                 $thoi_gian_ket_thuc = strtotime($giochieu);
@@ -136,8 +137,6 @@
                     echo "</form>";
                 }
             }
-                echo "</p>";
-                echo "<p><strong>Mô tả phim:</strong> " . $row["mo_ta_phim"] . "</p>";
                 echo "</div>"; // Đóng div 'thongtinphim'
                 echo "</div>"; // Đóng div 'xuatphim'
                 // echo "<form action='submit.php' method='post'>";

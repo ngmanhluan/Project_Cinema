@@ -1,0 +1,201 @@
+#form2{
+    width: 761px;
+    height: 100%;
+    border-radius:5px;  
+}
+.container{
+    display: flex; 
+}
+.tenphim input{
+     width: 378px;
+     height: 32px;
+     border-radius: 5px;
+     border:1px solid black;
+}
+.daodien input{
+    width: 378px;
+     height: 32px;
+     border-radius: 5px;
+     border:1px solid black;
+}
+.dienvien input {
+    width: 378px;
+     height: 32px;
+     border-radius: 5px;
+      border:1px solid black;
+}
+.mota textarea{
+  height: 96px;
+  width: 378px;
+  border-radius:5px;
+  border:1px solid black;
+}
+.giochieu textarea{
+   height: 96px;
+   width: 378px;
+   border-radius: 5px;
+   border:1px solid black;
+}
+.thu select {
+    width: 378px;
+    height: 32px;
+    border-radius: 5px;
+    border:1px solid black;
+}
+.tenphim{
+    margin:30px 0px 0px 133px;
+    font-size:15px;
+}
+.daodien{
+    margin:20px 0px 0px 133px;
+    font-size:15px;
+}
+.dienvien{
+    margin:20px 0px 0px 130px;
+    font-size:15px;
+}
+.mota{
+    margin:20px 0px 0px 145px;
+    
+}
+.mota label{
+    font-size:15px;
+    display: inline-block; /* Biến label thành phần tử inline-block */
+    width: 54px; /* Điều chỉnh độ rộng của label (tùy chọn) */
+    vertical-align: top; /* Để căn theo chiều dọc */
+      
+}
+.form-image{
+    margin: 10px 0px 0px 200px;
+}
+.giochieu {
+    margin:20px 0px 0px 110px;
+}
+.giochieu label{
+    font-size:15px;
+    display: inline-block; /* Biến label thành phần tử inline-block */
+    width: 87px; /* Điều chỉnh độ rộng của label (tùy chọn) */
+    vertical-align: top; /* Để căn theo chiều dọc */
+}
+.thu{
+    margin: 20px 0px 0px 201px;
+}
+.them button{
+    width: 378px;
+    height: 33px;
+    background-color: #FFBB5C;
+    border-radius: 5px;
+    border: none;
+}
+.them{
+    margin:40px 0px 0px 200px;
+}
+
+#form1{
+    padding-top:35px;
+    font-size: 15px;
+}
+.timkiem input{
+    width: 378px;
+     height: 32px;
+     border-radius: 5px;
+     border:1px solid black;
+}
+.thu1 select {
+    width: 378px;
+    height: 32px;
+    border-radius: 5px;
+    border:1px solid black;
+    margin:10px 0px 10px 0px;
+}
+.submit input{
+    background-color: #FFBB5C;
+    border: none;
+}
+.xoa input{
+    width: 378px;
+     height: 32px;
+     border-radius: 5px;
+     border:1px solid black;
+}
+.submit1 input{
+    background-color: #FFBB5C;
+    border: none;
+}
+  
+
+.tenphim2 input{
+    width: 378px;
+    height: 32px;
+    border-radius: 5px;
+    border:1px solid black;
+}
+.daodien2 input{
+   width: 378px;
+    height: 32px;
+    border-radius: 5px;
+    border:1px solid black;
+}
+.dienvien2 input {
+   width: 378px;
+    height: 32px;
+    border-radius: 5px;
+     border:1px solid black;
+}
+.mota2 textarea{
+ height: 96px;
+ width: 378px;
+ border-radius:5px;
+ border:1px solid black;
+}
+.giochieu2 textarea{
+  height: 96px;
+  width: 378px;
+  border-radius: 5px;
+  border:1px solid black;
+}
+.tenphim2 {
+   margin:30px 0px 0px 70px;
+   font-size:15px;
+}
+.daodien2{
+   margin:20px 0px 0px 70px;
+   font-size:15px;
+}
+.dienvien2{
+   margin:20px 0px 0px 70px;
+   font-size:15px;
+}
+.mota2{
+   margin:20px 0px 0px 70px;
+   
+}
+.mota2 label{
+   font-size:15px;
+   display: inline-block; /* Biến label thành phần tử inline-block */
+   width: 54px; /* Điều chỉnh độ rộng của label (tùy chọn) */
+   vertical-align: top; /* Để căn theo chiều dọc */
+     
+}
+.form-image{
+   margin: 10px 0px 0px 200px;
+}
+.giochieu2 {
+   margin:20px 0px 0px 70px;
+}
+.giochieu2 label{
+   font-size:15px;
+   display: inline-block; /* Biến label thành phần tử inline-block */
+   width: 87px; /* Điều chỉnh độ rộng của label (tùy chọn) */
+   vertical-align: top; /* Để căn theo chiều dọc */
+}
+.them2 button{
+   width: 378px;
+   height: 33px;
+   background-color: #FFBB5C;
+   border-radius: 5px;
+   border: none;
+}
+.them2{
+   margin:40px 0px 0px 70px;
+}
